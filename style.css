@@ -1,0 +1,27 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#start, #number_of_objects, #status{
+    font-size: 18px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+}
+canvas{
+    border-width: 4;
+    border-style: solid;
+    margin-top: 100px;
+    border-color: white;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+}
